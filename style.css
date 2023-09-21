@@ -1,1 +1,46 @@
+html {
+    display: block;
+    height: 100vh;
+}
 
+body {
+  background-color: #FEFBF6;
+}
+
+.header {
+  background-color: rgba(50,60,74,1);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+}
+.header h1 {
+  color: black;
+  font-size: 45px;
+  margin-bottom: 20px
+}
+.header h2 {
+  color: black;
+  font-size: 17px;
+}
+.header p {
+  color: black;
+  font-size: 12px;
+  opacity: .7
+}
+.header img {
+  height: 25px;  
+  width: 25px;
+}
+
+#left_banner {
+  text-align: left;
+  margin-left: 20vw;
+}
+#right_banner {
+  text-align: right;
+  margin-right: 20vw;
+  margin-top: 35px;
